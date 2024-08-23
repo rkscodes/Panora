@@ -1,0 +1,57 @@
+export type ServicenowAccountInput = {
+	id: string;
+}
+
+export type ServicenowAccountOutput = {
+	account_code: string;
+	account_parent: string;
+	account_path: string;
+	active_escalation: string;
+	apple_icon: string;
+	banner_image: string;
+	banner_image_light: string;
+	banner_text: string;
+	city: string;
+	contact: string;
+	country: string;
+	customer: boolean;
+	discount: number;
+	fax_phone: string;
+	fiscal_year: string;
+	lat_long_error: string;
+	latitude: number;
+	longitude: number;
+	manufacturer: boolean;
+	market_cap: number;
+	name: string;
+	notes: string;
+	num_employees: number;
+	number: string;
+	parent: string;
+	partner: boolean;
+	phone: string;
+	primary: boolean;
+	primary_contact: string;
+	profits: number;
+	publicly_traded: boolean;
+	rank_tier: string;
+	registration_code: string;
+	revenue_per_year: number;
+	state: string;
+	stock_price: string;
+	stock_symbol: string;
+	street: string;
+	sys_class_name: string;
+	sys_created_by: string;
+	sys_created_on: string;
+	sys_id: string;
+	sys_mod_count: number;
+	sys_updated_by: string;
+	sys_updated_on: string;
+	theme: string;
+	vendor: boolean;
+	vendor_manager: string;
+	vendor_type: string;
+	website: string;
+	zip: string;
+};

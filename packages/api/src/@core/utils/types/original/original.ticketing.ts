@@ -135,6 +135,7 @@ import {
   GitlabTagInput,
   GitlabTagOutput,
 } from '@ticketing/tag/services/gitlab/types';
+import { ServicenowAccountOutput } from '@ticketing/account/services/servicenow/types';
 
 /* INPUT */
 
@@ -226,7 +227,7 @@ export type OriginalUserOutput =
   | GorgiasUserOutput
   | JiraUserOutput | GithubUserOutput | GitlabUserOutput;
 /* account */
-export type OriginalAccountOutput = ZendeskAccountOutput | FrontAccountOutput;
+export type OriginalAccountOutput = ZendeskAccountOutput | FrontAccountOutput | ServicenowAccountOutput;
 /* contact */
 export type OriginalContactOutput =
   | ZendeskContactOutput
